@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products | Lifewear Steel Products</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a href="tel:+18686748897" class="m-call">📞 Call Now — (868) 674-8897</a>
+
+  <nav class="site-nav">
+    <a href="index.html" class="n-logo">
+      <div class="n-logo-mark hex-clip red-grad">L</div>
+      <div>
+        <span class="n-logo-name">Lifewear Steel</span>
+        <span class="n-logo-sub">Trinidad &amp; Tobago</span>
+      </div>
+    </a>
+    <div class="n-links">
+      <a href="index.html">Home</a>
+      <a href="products.html" class="active">Products</a>
+      <a href="delivery.html">Delivery</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="n-right">
+      <a href="tel:+18686748897" class="n-phone">📞 (868) 674-8897</a>
+      <a href="tel:+186866385746" class="n-phone">📞 (868) 638-5746</a>
+      <a href="tel:+18683552989" class="n-phone">📞 (868) 355-2989</a>
+      <a href="contact.html" class="btn btn-red">Request a Quote</a>
+    </div>
+  </nav>
+
+  <div class="p-hero">
+    <img class="p-hero-img" src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1600&q=80" alt="Steel products">
+    <div class="p-hero-over"></div>
+    <div class="container p-hero-body">
+      <span class="p-hero-badge">Full Product Catalogue</span>
+      <h1>Our <span class="ac">Products</span></h1>
+      <div class="p-hero-rule accent-rule"></div>
+      <p class="p-hero-sub">Complete specifications for all stainless steel, aluminium, and galvanized products in stock. All items available cut-to-length. Contact us for pricing.</p>
+    </div>
+  </div>
+
+  <main>
+    <div class="prod-layout">
+
+      <!-- SIDEBAR -->
+      <aside class="prod-sidebar">
+        <div class="sticky-inner">
+          <div class="sidebar-head">Product Categories</div>
+
+          <div class="cat-group">
+            <span class="cat-head">Stainless Steel</span>
+            <div class="cat-links">
+              <span class="cat-link active" onclick="showTab('ss','ss-pipes',this)">SS Pipes</span>
+              <span class="cat-link" onclick="showTab('ss','ss-tubing',this)">SS Seamless Tubing</span>
+              <span class="cat-link" onclick="showTab('ss','ss-rounds',this)">SS Solid Rounds</span>
+              <span class="cat-link" onclick="showTab('ss','ss-elbows',this)">SS Elbows</span>
+              <span class="cat-link" onclick="showTab('ss','ss-mandrel',this)">SS Mandrel Bends</span>
+              <span class="cat-link" onclick="showTab('ss','ss-angles',this)">SS Angles</span>
+              <span class="cat-link" onclick="showTab('ss','ss-flats',this)">SS Flats</span>
+              <span class="cat-link" onclick="showTab('ss','ss-rhs',this)">SS RHS</span>
+              <span class="cat-link" onclick="showTab('ss','ss-sheets',this)">SS Sheets</span>
+            </div>
+          </div>
+
+          <div class="cat-group">
+            <span class="cat-head">Other Steel</span>
+            <div class="cat-links">
+              <span class="cat-link" onclick="showTab('other','other-galv',this)">Galvanized Sheets</span>
+              <span class="cat-link" onclick="showTab('other','other-mild',this)">Mild Steel Sheets</span>
+              <span class="cat-link" onclick="showTab('other','other-zinc',this)">Zinc RHS</span>
+            </div>
+          </div>
+
+          <div class="cat-group">
+            <span class="cat-head">Aluminium</span>
+            <div class="cat-links">
+              <span class="cat-link" onclick="showTab('alum','alum-checkered',this)">5-Bar Checkered Sheet</span>
+              <span class="cat-link" onclick="showTab('alum','alum-plain',this)">Plain Sheet</span>
+              <span class="cat-link" onclick="showTab('alum','alum-1bar',this)">1-Bar Treadplate</span>
+              <span class="cat-link" onclick="showTab('alum','alum-5bar',this)">5-Bar Treadplate</span>
+              <span class="cat-link" onclick="showTab('alum','alum-plate',this)">Marine Plates 5083</span>
+              <span class="cat-link" onclick="showTab('alum','alum-white',this)">White Coated Sheet</span>
+              <span class="cat-link" onclick="showTab('alum','alum-pipe',this)">Pipes</span>
+              <span class="cat-link" onclick="showTab('alum','alum-angles',this)">Angles</span>
+              <span class="cat-link" onclick="showTab('alum','alum-flats',this)">Flats</span>
+            </div>
+          </div>
+
+          <div style="background:var(--zinc-50,#f8f8f8);border:1px solid var(--zinc-200,#e5e5e5);border-left:3px solid var(--red,#ba0013);border-radius:2px;padding:1rem 1.1rem;margin-top:1rem;">
+            <p style="font-family:var(--ff-cond,'Barlow Condensed',sans-serif);font-size:.62rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--red,#ba0013);margin-bottom:.4rem;">Need Pricing?</p>
+            <p style="font-size:.78rem;color:var(--zinc-600,#555);font-weight:300;line-height:1.5;margin-bottom:.75rem;">Contact us for current stock levels and pricing on any product.</p>
+            <a href="contact.html" class="btn btn-red" style="padding:9px 16px;font-size:.72rem;width:100%;justify-content:center;">Request a Quote</a>
+          </div>
+        </div>
+      </aside>
+
+      <!-- WORKSPACE -->
+      <section class="prod-workspace">
+
+        <div class="ws-head">
+          <div>
+            <div class="ws-eyebrow">Product Specifications</div>
+            <div class="ws-title">Full Catalogue <span>/ All Items</span></div>
+          </div>
+          <div style="display:flex;gap:.5rem;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-red" style="padding:10px 20px;font-size:.76rem;">Get a Quote</a>
+          </div>
+        </div>
+
+        <div class="main-tabs">
+          <button class="main-tab active" onclick="switchMainTab('ss',this)">Stainless Steel</button>
+          <button class="main-tab" onclick="switchMainTab('other',this)">Other Steel</button>
+          <button class="main-tab" onclick="switchMainTab('alum',this)">Aluminium</button>
+        </div>
+
+
+        <!-- ══════════════════════════════ STAINLESS STEEL TAB ══════════════════════════════ -->
+        <div id="tab-ss" class="tab-panel active">
+
+          <!-- 1. SS PIPES -->
+          <div class="prod-cat" id="ss-pipes">
+            <div class="prod-cat-head">
+              <div class="cat-num">1</div>
+              <div class="cat-name">Stainless Steel Pipes</div>
+            </div>
+
+            <!-- 1.1 -->
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">1.1 &nbsp;SS Pipe — Grade 304 (Polish) | Length: 20ft</span>
+                <div class="sub-cat-meta">
+                  <span class="meta-tag grade">Grade 304</span>
+                  <span class="meta-tag">Polish Finish</span>
+                  <span class="meta-tag">20ft Lengths</span>
+                </div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img">
+                  <div class="img-placeholder" onclick="triggerUpload(this)">
+                    <div class="img-placeholder-icon">📷</div>
+                    <div class="img-placeholder-label">Click to add product image</div>
+                    <input type="file" accept="image/*" onchange="loadImage(this)">
+                  </div>
+                </div>
+                <div class="sub-cat-table">
+                  <div class="spec-table-wrap">
+                    <table class="spec-table">
+                      <thead><tr><th>Size</th><th>Thickness</th></tr></thead>
+                      <tbody>
+                        <tr><td>½"</td><td>1.0mm</td></tr>
+                        <tr><td>½"</td><td>1.2mm</td></tr>
+                        <tr><td>¾"</td><td>1.0mm</td></tr>
+                        <tr><td>¾"</td><td>1.2mm</td></tr>
+                        <tr><td>1"</td><td>1.2mm</td></tr>
+                        <tr><td>1"</td><td>1.5mm</td></tr>
+                        <tr><td>1¼"</td><td>1.5mm</td></tr>
+                        <tr><td>1¼"</td><td>2.0mm</td></tr>
+                        <tr><td>1½"</td><td>1.5mm</td></tr>
+                        <tr><td>1½"</td><td>2.0mm</td></tr>
+                        <tr><td>1¾"</td><td>1.5mm</td></tr>
+                        <tr><td>2"</td><td>1.5mm</td></tr>
+                        <tr><td>2½"</td><td>1.5mm</td></tr>
+                        <tr><td>3"</td><td>1.5mm</td></tr>
+                        <tr><td>3½"</td><td>1.5mm</td></tr>
+                        <tr><td>4"</td><td>1.5mm</td></tr>
+                        <tr><td>4"</td><td>2.0mm</td></tr>
+                        <tr><td>5"</td><td>2.0mm</td></tr>
+                        <tr><td>6"</td><td>2.0mm</td></tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 1.2 -->
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">1.2 &nbsp;SS Pipe — Grade 316 (Polish) | Length: 20ft</span>
+                <div class="sub-cat-meta">
+                  <span class="meta-tag grade">Grade 316</span>
+                  <span class="meta-tag">Polish Finish</span>
+                  <span class="meta-tag">20ft Lengths</span>
+                </div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img">
+                  <div class="img-placeholder" onclick="triggerUpload(this)">
+                    <div class="img-placeholder-icon">📷</div>
+                    <div class="img-placeholder-label">Click to add product image</div>
+                    <input type="file" accept="image/*" onchange="loadImage(this)">
+                  </div>
+                </div>
+                <div class="sub-cat-table">
+                  <div class="spec-table-wrap">
+                    <table class="spec-table">
+                      <thead><tr><th>Size</th><th>Thickness</th></tr></thead>
+                      <tbody>
+                        <tr><td>1"</td><td>1.5mm</td></tr>
+                        <tr><td>1¼"</td><td>1.5mm</td></tr>
+                        <tr><td>1½"</td><td>1.5mm</td></tr>
+                        <tr><td>1¾"</td><td>1.5mm</td></tr>
+                        <tr><td>2"</td><td>1.5mm</td></tr>
+                        <tr><td>2½"</td><td>1.5mm</td></tr>
+                        <tr><td>3"</td><td>1.5mm</td></tr>
+                        <tr><td>3½"</td><td>1.5mm</td></tr>
+                        <tr><td>4"</td><td>1.5mm</td></tr>
+                        <tr><td>5"</td><td>2.0mm</td></tr>
+                        <tr><td>6"</td><td>2.0mm</td></tr>
+                        <tr><td>8" (Dull Finish)</td><td>2.0mm</td></tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 1.3 -->
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">1.3 &nbsp;SS Pipe — Grade 304 (Brush Finish) | Length: 20ft</span>
+                <div class="sub-cat-meta">
+                  <span class="meta-tag grade">Grade 304</span>
+                  <span class="meta-tag">Brush Finish</span>
+                </div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img">
+                  <div class="img-placeholder" onclick="triggerUpload(this)">
+                    <div class="img-placeholder-icon">📷</div>
+                    <div class="img-placeholder-label">Click to add product image</div>
+                    <input type="file" accept="image/*" onchange="loadImage(this)">
+                  </div>
+                </div>
+                <div class="sub-cat-table">
+                  <div class="spec-table-wrap">
+                    <table class="spec-table">
+                      <thead><tr><th>Size</th><th>Thickness</th></tr></thead>
+                      <tbody>
+                        <tr><td>1½"</td><td>1.5mm</td></tr>
+                        <tr><td>1¾"</td><td>1.5mm</td></tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 1.4 -->
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">1.4 &nbsp;SS Seamless Pipe — Grade 304/304L | Dull Polish, Lengths Vary</span>
+                <div class="sub-cat-meta">
+                  <span class="meta-tag grade">Grade 304/304L</span>
+                  <span class="meta-tag">Seamless</span>
+                  <span class="meta-tag">Dull Polish</span>
+                </div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img">
+                  <div class="img-placeholder" onclick="triggerUpload(this)">
+                    <div class="img-placeholder-icon">📷</div>
+                    <div class="img-placeholder-label">Click to add product image</div>
+                    <input type="file" accept="image/*" onchange="loadImage(this)">
+                  </div>
+                </div>
+                <div class="sub-cat-table">
+                  <div class="spec-table-wrap">
+                    <table class="spec-table">
+                      <thead><tr><th>Size</th><th>Thickness</th></tr></thead>
+                      <tbody>
+                        <tr><td>½"</td><td>SCH 40</td></tr>
+                        <tr><td>¾"</td><td>SCH 40</td></tr>
+                        <tr><td>1"</td><td>SCH 40</td></tr>
+                        <tr><td>2"</td><td>SCH 40</td></tr>
+                        <tr><td>3"</td><td>SCH 40</td></tr>
+                        <tr><td>4"</td><td>SCH 40</td></tr>
+                        <tr><td>6"</td><td>SCH 40</td></tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 1.5 -->
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">1.5 &nbsp;SS Seamless Pipe — Grade 316/316L | Dull Polish, Lengths Vary</span>
+                <div class="sub-cat-meta">
+                  <span class="meta-tag grade">Grade 316/316L</span>
+                  <span class="meta-tag">Seamless</span>
+                  <span class="meta-tag">Dull Polish</span>
+                </div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img">
+                  <div class="img-placeholder" onclick="triggerUpload(this)">
+                    <div class="img-placeholder-icon">📷</div>
+                    <div class="img-placeholder-label">Click to add product image</div>
+                    <input type="file" accept="image/*" onchange="loadImage(this)">
+                  </div>
+                </div>
+                <div class="sub-cat-table">
+                  <div class="spec-table-wrap">
+                    <table class="spec-table">
+                      <thead><tr><th>Size</th><th>Thickness</th></tr></thead>
+                      <tbody>
+                        <tr><td>½"</td><td>SCH 40</td></tr>
+                        <tr><td>¾"</td><td>SCH 40</td></tr>
+                        <tr><td>1"</td><td>SCH 40</td></tr>
+                        <tr><td>1½"</td><td>SCH 40</td></tr>
+                        <tr><td>2"</td><td>SCH 40</td></tr>
+                        <tr><td>3"</td><td>SCH 40</td></tr>
+                        <tr><td>4"</td><td>SCH 40</td></tr>
+                        <tr><td>6"</td><td>SCH 40</td></tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- /ss-pipes -->
+
+
+          <!-- 2. SS SEAMLESS TUBING -->
+          <div class="prod-cat" id="ss-tubing">
+            <div class="prod-cat-head">
+              <div class="cat-num">2</div>
+              <div class="cat-name">Stainless Steel Seamless Tubing</div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">2.1 &nbsp;SS Seamless Tubing — Grade 304 (Dull Finish) | Length: 20ft</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 304</span><span class="meta-tag">Dull Finish</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Thickness</th></tr></thead><tbody><tr><td>½"</td><td>2.0mm</td></tr><tr><td>¾"</td><td>1.5mm</td></tr><tr><td>1"</td><td>1.5mm</td></tr></tbody></table></div></div>
+              </div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">2.2 &nbsp;SS Seamless Tubing — Grade 316 (Dull Finish) | Length: 20ft</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 316</span><span class="meta-tag">Dull Finish</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Thickness</th></tr></thead><tbody><tr><td>½"</td><td>2.0mm</td></tr><tr><td>¾"</td><td>1.5mm</td></tr><tr><td>1"</td><td>1.5mm</td></tr></tbody></table></div></div>
+              </div>
+            </div>
+          </div><!-- /ss-tubing -->
+
+
+          <!-- 3. SS SOLID ROUNDS -->
+          <div class="prod-cat" id="ss-rounds">
+            <div class="prod-cat-head">
+              <div class="cat-num">3</div>
+              <div class="cat-name">Stainless Steel Solid Rounds</div>
+            </div>
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">3.1 &nbsp;SS Solid Rounds — Grade 316 | Length: 10ft</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 316</span><span class="meta-tag">10ft Lengths</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Diameter</th><th>Length</th></tr></thead><tbody><tr><td>¼" DIA</td><td>10 ft</td></tr><tr><td>5/16" DIA</td><td>10 ft</td></tr><tr><td>3/8" DIA</td><td>10 ft</td></tr><tr><td>½" DIA</td><td>10 ft</td></tr><tr><td>5/8" DIA</td><td>10 ft</td></tr><tr><td>¾" DIA</td><td>10 ft</td></tr><tr><td>1" DIA</td><td>10 ft</td></tr></tbody></table></div></div>
+              </div>
+            </div>
+          </div><!-- /ss-rounds -->
+
+
+          <!-- 4. SS ELBOWS -->
+          <div class="prod-cat" id="ss-elbows">
+            <div class="prod-cat-head">
+              <div class="cat-num">4</div>
+              <div class="cat-name">Stainless Steel Elbows</div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">4.1 &nbsp;SS Elbows — Grade 316L with Legs | 1.5mm / 2.0mm</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 316L</span><span class="meta-tag">With Legs</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size &amp; Angle</th><th>Thickness</th></tr></thead><tbody>
+                  <tr><td>1" × 90°</td><td>1.5mm</td></tr><tr><td>1¼" × 90°</td><td>1.5mm</td></tr><tr><td>1¼" × 45°</td><td>1.5mm</td></tr>
+                  <tr><td>1½" × 90°</td><td>1.5mm</td></tr><tr><td>1½" × 45°</td><td>1.5mm</td></tr><tr><td>1¾" × 90°</td><td>1.5mm</td></tr><tr><td>1¾" × 45°</td><td>1.5mm</td></tr>
+                  <tr><td>2" × 90°</td><td>1.5mm</td></tr><tr><td>2" × 45°</td><td>1.5mm</td></tr><tr><td>2½" × 90°</td><td>1.5mm</td></tr><tr><td>2½" × 45°</td><td>1.5mm</td></tr>
+                  <tr><td>3" × 90°</td><td>1.5mm</td></tr><tr><td>3" × 45°</td><td>1.5mm</td></tr><tr><td>3½" × 90°</td><td>1.5mm</td></tr><tr><td>3½" × 45°</td><td>1.5mm</td></tr><tr><td>4" × 45°</td><td>1.5mm</td></tr>
+                  <tr><td>4" × 90°</td><td>2.0mm</td></tr><tr><td>5" × 90°</td><td>2.0mm</td></tr><tr><td>6" × 90°</td><td>2.0mm</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">4.2 &nbsp;SS Elbows — Grade 304/304L (Seamless) | SCH 40</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 304/304L</span><span class="meta-tag">Seamless</span><span class="meta-tag">SCH 40</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size &amp; Angle</th><th>Thickness</th></tr></thead><tbody>
+                  <tr><td>½" × 90°</td><td>SCH 40</td></tr><tr><td>½" × 45°</td><td>SCH 40</td></tr><tr><td>¾" × 90°</td><td>SCH 40</td></tr><tr><td>¾" × 45°</td><td>SCH 40</td></tr>
+                  <tr><td>1" × 90°</td><td>SCH 40</td></tr><tr><td>1" × 45°</td><td>SCH 40</td></tr><tr><td>1½" × 90°</td><td>SCH 40</td></tr><tr><td>1½" × 45°</td><td>SCH 40</td></tr>
+                  <tr><td>2" × 90°</td><td>SCH 40</td></tr><tr><td>2" × 45°</td><td>SCH 40</td></tr>
+                  <tr><td>3" × 90°</td><td>SCH 40</td></tr><tr><td>3" × 45°</td><td>SCH 40</td></tr><tr><td>4" × 90°</td><td>SCH 40</td></tr><tr><td>4" × 45°</td><td>SCH 40</td></tr>
+                  <tr><td>6" × 45°</td><td>SCH 40</td></tr><tr><td>6" × 90°</td><td>SCH 40</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">4.3 &nbsp;SS Elbows — Grade 316/316L (Seamless) | SCH 40</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 316/316L</span><span class="meta-tag">Seamless</span><span class="meta-tag">SCH 40</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size &amp; Angle</th><th>Thickness</th></tr></thead><tbody>
+                  <tr><td>½" × 90°</td><td>SCH 40</td></tr><tr><td>½" × 45°</td><td>SCH 40</td></tr><tr><td>¾" × 90°</td><td>SCH 40</td></tr><tr><td>¾" × 45°</td><td>SCH 40</td></tr>
+                  <tr><td>1" × 90°</td><td>SCH 40</td></tr><tr><td>1" × 45°</td><td>SCH 40</td></tr><tr><td>1½" × 90°</td><td>SCH 40</td></tr><tr><td>1½" × 45°</td><td>SCH 40</td></tr>
+                  <tr><td>2" × 90°</td><td>SCH 40</td></tr><tr><td>2" × 45°</td><td>SCH 40</td></tr>
+                  <tr><td>3" × 90°</td><td>SCH 40</td></tr><tr><td>3" × 45°</td><td>SCH 40</td></tr><tr><td>4" × 90°</td><td>SCH 40</td></tr><tr><td>4" × 45°</td><td>SCH 40</td></tr>
+                  <tr><td>6" × 45°</td><td>SCH 40</td></tr><tr><td>6" × 90°</td><td>SCH 40</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+          </div><!-- /ss-elbows -->
+
+
+          <!-- 5. SS MANDREL BENDS -->
+          <div class="prod-cat" id="ss-mandrel">
+            <div class="prod-cat-head">
+              <div class="cat-num">5</div>
+              <div class="cat-name">Stainless Steel Mandrel Bends</div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">5.1 &nbsp;SS Mandrel Bends with Legs — Grade 304 (Polish)</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 304</span><span class="meta-tag">Polish</span><span class="meta-tag">With Legs</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size &amp; Angle</th><th>Thickness</th></tr></thead><tbody>
+                  <tr><td>1" × 90°</td><td>1.5mm</td></tr><tr><td>1¼" × 90°</td><td>1.5mm</td></tr><tr><td>1¼" × 45°</td><td>1.5mm</td></tr>
+                  <tr><td>1½" × 90°</td><td>1.5mm</td></tr><tr><td>1½" × 45°</td><td>1.5mm</td></tr><tr><td>1¾" × 90°</td><td>1.5mm</td></tr><tr><td>1¾" × 45°</td><td>1.5mm</td></tr>
+                  <tr><td>2" × 90°</td><td>1.5mm</td></tr><tr><td>2" × 45°</td><td>1.5mm</td></tr><tr><td>2½" × 90°</td><td>1.5mm</td></tr><tr><td>2½" × 45°</td><td>1.5mm</td></tr>
+                  <tr><td>3" × 90°</td><td>1.5mm</td></tr><tr><td>3" × 45°</td><td>1.5mm</td></tr><tr><td>3½" × 90°</td><td>1.5mm</td></tr><tr><td>3½" × 45°</td><td>1.5mm</td></tr>
+                  <tr><td>3½" × 45°</td><td>2.0mm</td></tr><tr><td>4" × 45°</td><td>2.0mm</td></tr><tr><td>4" × 90°</td><td>2.0mm</td></tr><tr><td>5" × 90°</td><td>2.0mm</td></tr><tr><td>6" × 90°</td><td>2.0mm</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">5.2 &nbsp;SS Mandrel Bends — Grade 304 (Brush Finish)</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 304</span><span class="meta-tag">Brush Finish</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size &amp; Angle</th><th>Thickness</th></tr></thead><tbody>
+                  <tr><td>1½" × 90°</td><td>1.5mm</td></tr><tr><td>1½" × 45°</td><td>1.5mm</td></tr><tr><td>1¾" × 90°</td><td>1.5mm</td></tr>
+                  <tr><td>1¾" × 45°</td><td>1.5mm</td></tr><tr><td>2" × 90°</td><td>1.5mm</td></tr><tr><td>2" × 45°</td><td>1.5mm</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">5.3 &nbsp;SS Mandrel Bends (No Legs) — Grade 304</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 304</span><span class="meta-tag">No Legs</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size &amp; Angle</th><th>Thickness</th></tr></thead><tbody>
+                  <tr><td>1" × 90°</td><td>1.5mm</td></tr><tr><td>1½" × 90°</td><td>1.5mm</td></tr><tr><td>1¾" × 90°</td><td>1.5mm</td></tr>
+                  <tr><td>2" × 90°</td><td>1.5mm</td></tr><tr><td>2" × 45°</td><td>1.5mm</td></tr><tr><td>2½" × 90°</td><td>1.5mm</td></tr><tr><td>2½" × 45°</td><td>1.5mm</td></tr>
+                  <tr><td>3" × 90°</td><td>1.5mm</td></tr><tr><td>3½" × 90°</td><td>1.5mm</td></tr><tr><td>4" × 45°</td><td>1.5mm</td></tr><tr><td>4" × 90°</td><td>1.5mm</td></tr><tr><td>5" × 90°</td><td>1.5mm</td></tr>
+                  <tr><td>5" × 45°</td><td>2.0mm</td></tr><tr><td>6" × 45°</td><td>2.0mm</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+          </div><!-- /ss-mandrel -->
+
+
+          <!-- 6. SS ANGLES -->
+          <div class="prod-cat" id="ss-angles">
+            <div class="prod-cat-head">
+              <div class="cat-num">6</div>
+              <div class="cat-name">Stainless Steel Angles</div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">6.1 &nbsp;SS Angles — Grade 304 | Length: 20ft</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 304</span><span class="meta-tag">20ft</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img">
+                  <img src="images/stainless-steel-angles.jpg" alt="Stainless Steel Angles" style="width:100%;height:100%;object-fit:cover;display:block;min-height:180px;">
+                </div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Length</th></tr></thead><tbody>
+                  <tr><td>1½" × 1½" × 1/8"</td><td>20ft</td></tr><tr><td>2" × 2" × 1/8"</td><td>20ft</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">6.2 &nbsp;SS Angles — Grade 304 (Polish) | Length: 20ft</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 304</span><span class="meta-tag">Polish</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Length</th></tr></thead><tbody>
+                  <tr><td>1" × 1" × 1/8"</td><td>20ft</td></tr><tr><td>1½" × 1½" × 3/16"</td><td>20ft</td></tr>
+                  <tr><td>1½" × 1½" × 1/4"</td><td>20ft</td></tr><tr><td>2" × 2" × 3/16"</td><td>20ft</td></tr><tr><td>2" × 2" × 1/4"</td><td>20ft</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">6.3 &nbsp;SS Angles — Grade 316 (Polish) | Length: 20ft</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 316</span><span class="meta-tag">Polish</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Length</th></tr></thead><tbody>
+                  <tr><td>1" × 1" × 3/16"</td><td>20ft</td></tr><tr><td>1½" × 1½" × 3/16"</td><td>20ft</td></tr>
+                  <tr><td>1½" × 1½" × 1/4"</td><td>20ft</td></tr><tr><td>2" × 2" × 3/16"</td><td>20ft</td></tr>
+                  <tr><td>2" × 2" × 1/4"</td><td>20ft</td></tr><tr><td>2½" × 2½" × 1/4"</td><td>20ft</td></tr><tr><td>3" × 3" × 1/4"</td><td>20ft</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+          </div><!-- /ss-angles -->
+
+
+          <!-- 7. SS FLATS -->
+          <div class="prod-cat" id="ss-flats">
+            <div class="prod-cat-head">
+              <div class="cat-num">7</div>
+              <div class="cat-name">Stainless Steel Flats</div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">7.1 &nbsp;SS Flats — Grade 304 (Polished)</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 304</span><span class="meta-tag">Polished</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Length</th></tr></thead><tbody>
+                  <tr><td>½" × 3/16"</td><td>10ft</td></tr><tr><td>1" × 3/16"</td><td>10ft</td></tr><tr><td>1½" × 3/16"</td><td>10ft</td></tr>
+                  <tr><td>1½" × 1/4"</td><td>10ft</td></tr><tr><td>2" × 3/16"</td><td>10ft</td></tr><tr><td>2" × 1/4"</td><td>10ft</td></tr>
+                  <tr><td>2½" × 1/4"</td><td>10ft</td></tr><tr><td>3" × 1/4"</td><td>10ft</td></tr><tr><td>1½" × 1/4"</td><td>13ft</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">7.2 &nbsp;SS Flats — Grade 304 (Dull Finish) | Length: 19' 8"</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 304</span><span class="meta-tag">Dull Finish</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Length</th></tr></thead><tbody>
+                  <tr><td>1" × 1/8"</td><td>19' 8"</td></tr><tr><td>1½" × 1/8"</td><td>19' 8"</td></tr><tr><td>2" × 1/8"</td><td>19' 8"</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">7.3 &nbsp;SS Flats — Grade 316</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 316</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Length</th></tr></thead><tbody>
+                  <tr><td>1" × 3/16"</td><td>10ft</td></tr><tr><td>1½" × 1/4"</td><td>10ft</td></tr><tr><td>2" × 3/16"</td><td>10ft</td></tr>
+                  <tr><td>2" × 1/4"</td><td>10ft</td></tr><tr><td>2½" × 1/4"</td><td>10ft</td></tr><tr><td>3" × 1/4"</td><td>10ft</td></tr><tr><td>1½" × 1/4"</td><td>13ft</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+          </div><!-- /ss-flats -->
+
+
+          <!-- 8. SS RHS -->
+          <div class="prod-cat" id="ss-rhs">
+            <div class="prod-cat-head">
+              <div class="cat-num">8</div>
+              <div class="cat-name">Stainless Steel RHS (Rectangular Hollow Section)</div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">8.1 &nbsp;SS RHS — Grade 304 (Polish)</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 304</span><span class="meta-tag">Polish</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Length</th><th>Thickness</th></tr></thead><tbody>
+                  <tr><td>¾" × ¾"</td><td>19ft 8"</td><td>1.5mm</td></tr>
+                  <tr><td>1" × 1"</td><td>19ft 8"</td><td>1.2mm</td></tr><tr><td>1" × 1"</td><td>20ft</td><td>1.5mm</td></tr><tr><td>1" × 1"</td><td>20ft</td><td>2.0mm</td></tr>
+                  <tr><td>1" × 2"</td><td>19ft 8"</td><td>1.2mm</td></tr><tr><td>1" × 2"</td><td>20ft</td><td>2.0mm</td></tr>
+                  <tr><td>1½" × 1½"</td><td>19ft 8"</td><td>1.2mm</td></tr><tr><td>1½" × 1½"</td><td>20ft</td><td>2.0mm</td></tr>
+                  <tr><td>1½" × 3"</td><td>19ft 8"</td><td>2.0mm</td></tr>
+                  <tr><td>2" × 2"</td><td>19ft 8"</td><td>1.5mm</td></tr><tr><td>2" × 2"</td><td>20ft</td><td>2.5mm</td></tr>
+                  <tr><td>2" × 4"</td><td>19ft 8"</td><td>2.0mm</td></tr><tr><td>4" × 4"</td><td>20ft</td><td>2.0mm</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">8.2 &nbsp;SS RHS — Grade 304 (Brush Finish) | Length: 19ft 8"</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 304</span><span class="meta-tag">Brush Finish</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Length</th><th>Thickness</th></tr></thead><tbody>
+                  <tr><td>¾" × ¾"</td><td>19ft 8"</td><td>1.2mm</td></tr><tr><td>1" × 1"</td><td>19ft 8"</td><td>1.2mm</td></tr>
+                  <tr><td>1" × 2"</td><td>19ft 8"</td><td>1.2mm</td></tr><tr><td>1½" × 1½"</td><td>19ft 8"</td><td>1.2mm</td></tr><tr><td>2" × 2"</td><td>19ft 8"</td><td>1.2mm</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+          </div><!-- /ss-rhs -->
+
+
+          <!-- 9. SS SHEETS -->
+          <div class="prod-cat" id="ss-sheets">
+            <div class="prod-cat-head">
+              <div class="cat-num">9</div>
+              <div class="cat-name">Stainless Steel Sheets</div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">9.1 &nbsp;SS Sheet — Grade 201 (Brush Finish) | 4ft × 10ft</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 201</span><span class="meta-tag">Brush Finish</span><span class="meta-tag">4ft × 10ft</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Gauge</th></tr></thead><tbody>
+                  <tr><td>4ft × 10ft</td><td>20 (1.0mm)</td></tr><tr><td>4ft × 10ft</td><td>22 (0.80mm)</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">9.2 &nbsp;SS Sheet — Grade 201 (2B Finish) | 4ft × 8ft</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 201</span><span class="meta-tag">2B Finish</span><span class="meta-tag">4ft × 8ft</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Gauge</th></tr></thead><tbody>
+                  <tr><td>4ft × 8ft</td><td>16 (1.5mm)</td></tr><tr><td>4ft × 8ft</td><td>18 (1.2mm)</td></tr>
+                  <tr><td>4ft × 8ft</td><td>20 (1.0mm)</td></tr><tr><td>4ft × 8ft</td><td>22 (0.80mm)</td></tr><tr><td>4ft × 8ft</td><td>24 (0.6mm)</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">9.3 &nbsp;SS Sheet — Grade 304 (2B Finish)</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 304</span><span class="meta-tag">2B Finish</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Gauge</th></tr></thead><tbody>
+                  <tr><td>4ft × 8ft</td><td>24 (0.6mm)</td></tr><tr><td>4ft × 8ft</td><td>22 (0.8mm)</td></tr><tr><td>4ft × 8ft</td><td>20 (1.0mm)</td></tr>
+                  <tr><td>4ft × 8ft</td><td>18 (1.2mm)</td></tr><tr><td>4ft × 8ft</td><td>16 (1.5mm)</td></tr><tr><td>4ft × 8ft</td><td>14 (2.0mm)</td></tr>
+                  <tr><td>4ft × 8ft</td><td>12 (2.3mm)</td></tr><tr><td>4ft × 8ft</td><td>1/8" (3.0mm)</td></tr><tr><td>4ft × 8ft</td><td>3/16" (4.7mm)</td></tr>
+                  <tr><td>4ft × 8ft</td><td>1/4" (6.35mm)</td></tr><tr><td>4ft × 8ft</td><td>5/16" (7.94mm)</td></tr><tr><td>4ft × 8ft</td><td>3/8" (9.53mm)</td></tr>
+                  <tr><td>4ft × 10ft</td><td>22 (0.8mm)</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">9.4 &nbsp;SS Sheet — Grade 316 (2B Finish) | 4ft × 8ft</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 316</span><span class="meta-tag">2B Finish</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Gauge</th></tr></thead><tbody>
+                  <tr><td>4ft × 8ft</td><td>22 (0.8mm)</td></tr><tr><td>4ft × 8ft</td><td>20 (1.0mm)</td></tr><tr><td>4ft × 8ft</td><td>18 (1.2mm)</td></tr>
+                  <tr><td>4ft × 8ft</td><td>16 (1.5mm)</td></tr><tr><td>4ft × 8ft</td><td>14 (2.0mm)</td></tr><tr><td>4ft × 8ft</td><td>1/8" (3.0mm)</td></tr>
+                  <tr><td>4ft × 8ft</td><td>5/32" (4.0mm)</td></tr><tr><td>4ft × 8ft</td><td>3/16" (4.7mm)</td></tr><tr><td>4ft × 8ft</td><td>1/4" (6.35mm)</td></tr>
+                  <tr><td>4ft × 8ft</td><td>5/16" (7.9mm)</td></tr><tr><td>4ft × 8ft</td><td>3/8" (9.53mm)</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">9.5 &nbsp;SS Sheet — Grade 304 (Brush Finish)</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 304</span><span class="meta-tag">Brush Finish</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Gauge</th></tr></thead><tbody>
+                  <tr><td>4ft × 8ft</td><td>20 (1.0mm)</td></tr><tr><td>4ft × 10ft</td><td>22 (0.8mm)</td></tr><tr><td>4ft × 10ft</td><td>20 (1.0mm)</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">9.6 &nbsp;SS Sheet — Grade 304 (Perforated) | 3mm holes</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 304</span><span class="meta-tag">Perforated 3mm</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Gauge</th></tr></thead><tbody>
+                  <tr><td>4ft × 8ft</td><td>18 (1.2mm) — 3mm holes</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">9.7 &nbsp;SS Sheet — Grade 304 (Mirror Finish) | 4ft × 8ft</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 304</span><span class="meta-tag">Mirror Finish</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Gauge</th></tr></thead><tbody>
+                  <tr><td>4ft × 8ft</td><td>24 (0.6mm)</td></tr><tr><td>4ft × 8ft</td><td>20 (1.0mm)</td></tr><tr><td>4ft × 8ft</td><td>18 (1.2mm)</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+          </div><!-- /ss-sheets -->
+
+          <div class="inline-cta">
+            <div>
+              <strong>Need a specific size or grade not listed?</strong>
+              <p>We may be able to source it. Contact us with your specifications.</p>
+            </div>
+            <a href="contact.html" class="btn btn-red">Contact Us</a>
+          </div>
+        </div><!-- /tab-ss -->
+
+
+        <!-- ══════════════════════════════ OTHER STEEL TAB ══════════════════════════════ -->
+        <div id="tab-other" class="tab-panel">
+
+          <div class="prod-cat" id="other-galv">
+            <div class="prod-cat-head">
+              <div class="cat-num">10</div>
+              <div class="cat-name">Galvanized Steel Sheets</div>
+              <span class="cat-badge">4' × 8'</span>
+            </div>
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">10.1 &nbsp;Galvanize Steel Sheets | Size: 4' × 8'</span>
+                <div class="sub-cat-meta"><span class="meta-tag">Hot-Dip Galvanized</span><span class="meta-tag">4ft × 8ft</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Gauge</th></tr></thead><tbody>
+                  <tr><td>4' × 8'</td><td>26 (0.45mm)</td></tr><tr><td>4' × 8'</td><td>24 (0.60mm)</td></tr>
+                  <tr><td>4' × 8'</td><td>22 (0.75mm)</td></tr><tr><td>4' × 8'</td><td>20 (0.90mm)</td></tr><tr><td>4' × 8'</td><td>18 (1.2mm)</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="prod-cat" id="other-mild">
+            <div class="prod-cat-head">
+              <div class="cat-num">10</div>
+              <div class="cat-name">Mild Steel Sheets</div>
+              <span class="cat-badge">4' × 8'</span>
+            </div>
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">10.2 &nbsp;Mild Steel Sheets | Size: 4' × 8'</span>
+                <div class="sub-cat-meta"><span class="meta-tag">Mild Steel</span><span class="meta-tag">4ft × 8ft</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Gauge</th></tr></thead><tbody>
+                  <tr><td>4' × 8'</td><td>22 (0.75mm)</td></tr><tr><td>4' × 8'</td><td>18 (1.2mm)</td></tr><tr><td>4' × 8'</td><td>16</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="prod-cat" id="other-zinc">
+            <div class="prod-cat-head">
+              <div class="cat-num">10</div>
+              <div class="cat-name">Zinc RHS</div>
+              <span class="cat-badge">Length: 19ft 3"</span>
+            </div>
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">10.3 &nbsp;Zinc RHS | Length: 19ft 3"</span>
+                <div class="sub-cat-meta"><span class="meta-tag">Zinc-Coated</span><span class="meta-tag">Hollow Section</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Length</th><th>Thickness</th></tr></thead><tbody>
+                  <tr><td>¾" × ¾"</td><td>19ft 3"</td><td>1.2mm</td></tr><tr><td>1" × 1"</td><td>19ft 3"</td><td>1.5mm</td></tr>
+                  <tr><td>1½" × 1½"</td><td>19ft 3"</td><td>1.5mm</td></tr><tr><td>2" × 2"</td><td>19ft 3"</td><td>1.5mm</td></tr>
+                  <tr><td>2" × 2"</td><td>19ft 3"</td><td>2.0mm</td></tr><tr><td>1½" × 3"</td><td>19ft 3"</td><td>2.0mm</td></tr><tr><td>3" × 3"</td><td>19ft 3"</td><td>2.0mm</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="inline-cta">
+            <div>
+              <strong>All items cut-to-length on request</strong>
+              <p>Contact us for current stock and pricing on galvanized and mild steel products.</p>
+            </div>
+            <a href="contact.html" class="btn btn-red">Get a Quote</a>
+          </div>
+        </div><!-- /tab-other -->
+
+
+        <!-- ══════════════════════════════ ALUMINIUM TAB ══════════════════════════════ -->
+        <div id="tab-alum" class="tab-panel">
+
+          <div class="prod-cat" id="alum-checkered">
+            <div class="prod-cat-head">
+              <div class="cat-num">11</div>
+              <div class="cat-name">Aluminium 5-Bar Checkered Sheeting</div>
+              <span class="cat-badge">GR.5754-H111</span>
+            </div>
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">11.1 &nbsp;Aluminum Alloy 5-Bar Checkered Sheeting GR.5754-H111 | 4ft × 8ft</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">5754-H111</span><span class="meta-tag">4ft × 8ft</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Gauge</th></tr></thead><tbody>
+                  <tr><td>4ft × 8ft</td><td>7 (3.5mm)</td></tr><tr><td>4ft × 8ft</td><td>11–10 (2.6mm)</td></tr>
+                  <tr><td>4ft × 8ft</td><td>12</td></tr><tr><td>4ft × 8ft</td><td>14 (1.6mm)</td></tr><tr><td>4ft × 8ft</td><td>18 (1.0mm)</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="prod-cat" id="alum-plain">
+            <div class="prod-cat-head">
+              <div class="cat-num">11</div>
+              <div class="cat-name">Plain Aluminium Sheeting</div>
+              <span class="cat-badge">GR1050A H14</span>
+            </div>
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">11.2 &nbsp;Plain Aluminum Sheeting GR1050A H14 | 4ft × 8ft</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">GR1050A H14</span><span class="meta-tag">4ft × 8ft</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Gauge</th></tr></thead><tbody>
+                  <tr><td>4ft × 8ft</td><td>24 (0.45mm)</td></tr><tr><td>4ft × 8ft</td><td>22 (0.65mm)</td></tr><tr><td>4ft × 8ft</td><td>21 (0.8mm)</td></tr>
+                  <tr><td>4ft × 8ft</td><td>18 (1.0mm)</td></tr><tr><td>4ft × 8ft</td><td>16 (1.3mm)</td></tr><tr><td>4ft × 8ft</td><td>14 (1.6mm)</td></tr>
+                  <tr><td>4ft × 8ft</td><td>10 (2.9mm)</td></tr><tr><td>4ft × 8ft</td><td>3.5mm</td></tr><tr><td>4ft × 8ft</td><td>1/4" (6mm)</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="prod-cat" id="alum-1bar">
+            <div class="prod-cat-head">
+              <div class="cat-num">11</div>
+              <div class="cat-name">Aluminium 1-Bar Treadplate Sheeting (High Polish)</div>
+            </div>
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">11.3 &nbsp;Aluminum 1-Bar Treadplate Sheeting (High Polish) | 4ft × 8ft</span>
+                <div class="sub-cat-meta"><span class="meta-tag">High Polish</span><span class="meta-tag">4ft × 8ft</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Gauge</th></tr></thead><tbody>
+                  <tr><td>4ft × 8ft</td><td>18 (1.2mm)</td></tr><tr><td>4ft × 8ft</td><td>16 (1.3mm)</td></tr><tr><td>4ft × 8ft</td><td>14 (1.5mm)</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="prod-cat" id="alum-5bar">
+            <div class="prod-cat-head">
+              <div class="cat-num">11</div>
+              <div class="cat-name">Aluminium 5-Bar Treadplate — Marine Grade 5754</div>
+            </div>
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">11.4 &nbsp;Aluminum 5-Bar Treadplate Sheeting — Marine Grade 5754 | 4ft × 8ft</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Marine Grade 5754</span><span class="meta-tag">4ft × 8ft</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Thickness</th></tr></thead><tbody>
+                  <tr><td>4ft × 8ft</td><td>3mm (1/8")</td></tr><tr><td>4ft × 8ft</td><td>4.5mm (3/16")</td></tr>
+                  <tr><td>4ft × 8ft</td><td>6mm (1/4")</td></tr><tr><td>4ft × 8ft</td><td>9.5mm (3/8")</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="prod-cat" id="alum-plate">
+            <div class="prod-cat-head">
+              <div class="cat-num">11</div>
+              <div class="cat-name">Aluminium Plates — Salt Water Grade 5083</div>
+            </div>
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">11.5 &nbsp;Aluminum Plates — Salt Water Grade 5083 Series | 4ft × 8ft</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">5083 — Marine/Salt Water</span><span class="meta-tag">4ft × 8ft</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Thickness</th></tr></thead><tbody>
+                  <tr><td>4ft × 8ft</td><td>1/8" (3.0mm)</td></tr><tr><td>4ft × 8ft</td><td>3/16" (4.95mm)</td></tr>
+                  <tr><td>4ft × 8ft</td><td>1/4" (6.0mm)</td></tr><tr><td>4ft × 8ft</td><td>5/16" (8.0mm)</td></tr>
+                  <tr><td>4ft × 8ft</td><td>3/8" (9.5mm)</td></tr><tr><td>4ft × 8ft</td><td>1/2" (12.7mm)</td></tr><tr><td>4ft × 8ft</td><td>5/8" (16mm)</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="prod-cat" id="alum-white">
+            <div class="prod-cat-head">
+              <div class="cat-num">11</div>
+              <div class="cat-name">Aluminium White Coated Sheeting</div>
+            </div>
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">11.6 &nbsp;Aluminum White Coated Sheeting</span>
+                <div class="sub-cat-meta"><span class="meta-tag">White Coated</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Gauge</th></tr></thead><tbody>
+                  <tr><td>4ft × 8ft</td><td>20</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="prod-cat" id="alum-pipe">
+            <div class="prod-cat-head">
+              <div class="cat-num">11</div>
+              <div class="cat-name">Aluminium Pipes</div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">11.7 &nbsp;Aluminum Pipe — Schedule 40, Marine Grade 6063 | Length: 20ft</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Marine Grade 6063</span><span class="meta-tag">SCH 40</span><span class="meta-tag">20ft</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Thickness</th></tr></thead><tbody>
+                  <tr><td>¾"</td><td>2.87mm</td></tr><tr><td>1"</td><td>3.38mm</td></tr><tr><td>1¼"</td><td>3.56mm</td></tr>
+                  <tr><td>1½"</td><td>3.68mm</td></tr><tr><td>2"</td><td>3.91mm</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">11.8 &nbsp;Aluminum Seamless Pipe — Schedule 40, Marine Grade 5083 | Length: 19' 6"</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Marine Grade 5083</span><span class="meta-tag">Seamless</span><span class="meta-tag">SCH 40</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Length</th></tr></thead><tbody>
+                  <tr><td>3"</td><td>19' 6"</td></tr><tr><td>4"</td><td>19' 6"</td></tr><tr><td>6"</td><td>19' 6"</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+          </div><!-- /alum-pipe -->
+
+          <div class="prod-cat" id="alum-angles">
+            <div class="prod-cat-head">
+              <div class="cat-num">11</div>
+              <div class="cat-name">Aluminium Angles</div>
+              <span class="cat-badge">Grade 6082</span>
+            </div>
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">11.9 &nbsp;Aluminum Angles — Grade 6082 | Length: 19ft</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 6082</span><span class="meta-tag">19ft</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Length</th></tr></thead><tbody>
+                  <tr><td>1" × 1" × 1/8"</td><td>19ft</td></tr><tr><td>1" × 1" × 3/16"</td><td>19ft</td></tr>
+                  <tr><td>1½" × 1½" × 1/8"</td><td>19ft</td></tr><tr><td>1½" × 1½" × 3/16"</td><td>19ft</td></tr>
+                  <tr><td>2" × 2" × 3/16"</td><td>19ft</td></tr><tr><td>2" × 2" × 1/4"</td><td>19ft</td></tr>
+                  <tr><td>2½" × 2½" × 1/4"</td><td>19ft</td></tr><tr><td>3" × 3" × 1/4"</td><td>19ft</td></tr><tr><td>4" × 4" × 1/4"</td><td>19ft</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="prod-cat" id="alum-flats">
+            <div class="prod-cat-head">
+              <div class="cat-num">11</div>
+              <div class="cat-name">Aluminium Flats</div>
+              <span class="cat-badge">Grade 6082</span>
+            </div>
+            <div class="sub-cat">
+              <div class="sub-cat-head">
+                <span class="sub-cat-name">11.10 &nbsp;Aluminum Flats — Grade 6082</span>
+                <div class="sub-cat-meta"><span class="meta-tag grade">Grade 6082</span></div>
+              </div>
+              <div class="sub-cat-body">
+                <div class="sub-cat-img"><div class="img-placeholder" onclick="triggerUpload(this)"><div class="img-placeholder-icon">📷</div><div class="img-placeholder-label">Click to add product image</div><input type="file" accept="image/*" onchange="loadImage(this)"></div></div>
+                <div class="sub-cat-table"><div class="spec-table-wrap"><table class="spec-table"><thead><tr><th>Size</th><th>Length</th></tr></thead><tbody>
+                  <tr><td>1" × 1/8"</td><td>13ft</td></tr><tr><td>1" × 3/16"</td><td>13ft</td></tr>
+                  <tr><td>1½" × 3/16"</td><td>13ft</td></tr><tr><td>1½" × 1/4"</td><td>13ft</td></tr>
+                  <tr><td>2" × 3/16"</td><td>13ft</td></tr><tr><td>2" × 1/4"</td><td>13ft</td></tr>
+                  <tr><td>2½" × 1/4"</td><td>13ft</td></tr><tr><td>3" × 1/4"</td><td>13ft</td></tr>
+                  <tr><td>4" × 1/4"</td><td>16ft 5"</td></tr>
+                </tbody></table></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="inline-cta">
+            <div>
+              <strong>Marine and structural aluminium specialists</strong>
+              <p>Contact us to discuss grade selection and custom sizing for your application.</p>
+            </div>
+            <a href="contact.html" class="btn btn-red">Get a Quote</a>
+          </div>
+        </div><!-- /tab-alum -->
+
+      </section><!-- /prod-workspace -->
+    </div><!-- /prod-layout -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="ft-inner">
+        <div>
+          <div class="ft-logo">LIFEWEAR <span>STEEL</span></div>
+          <p class="ft-tagline">Wholesale and retail supplier of stainless steel and aluminium products. Serving Trinidad &amp; Tobago since 2015.</p>
+          <p class="ft-copy">© 2015–2026 Lifewear Muffler Center Ltd. All rights reserved.</p>
+        </div>
+        <div>
+          <div class="ft-head">Metals</div>
+          <ul class="ft-links">
+            <li><a href="products.html">Stainless Steel Sheets</a></li>
+            <li><a href="products.html">Stainless Steel Pipes</a></li>
+            <li><a href="products.html">SS Angles &amp; Flats</a></li>
+            <li><a href="products.html">SS Elbows &amp; Rounds</a></li>
+            <li><a href="products.html">Aluminium Profiles</a></li>
+            <li><a href="products.html">Galvanized Sheets</a></li>
+            <li><a href="products.html">Zinc RHS</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="ft-head">Services</div>
+          <ul class="ft-links">
+            <li><a href="delivery.html">Logistics &amp; Delivery</a></li>
+            <li><a href="contact.html">Request a Quote</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+          <div class="ft-head" style="margin-top:1.5rem;">Company</div>
+          <ul class="ft-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Disclaimer</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="ft-head">Contact</div>
+          <ul class="ft-links" style="gap:.85rem;">
+            <li style="color:var(--zinc-600,#555);font-size:.76rem;line-height:1.65;font-weight:300;">6 Mendoza Lane, Irving Street<br>Petit Bourg, San Juan<br>Trinidad &amp; Tobago</li>
+            <li><a href="tel:+18686748897">(868) 674-8897</a></li>
+            <li style="color:var(--zinc-600,#555);font-size:.74rem;line-height:1.6;font-weight:300;">Mon–Fri: 8am – 5pm<br>Sat: 8am – 4pm<br>Public Holidays: Closed</li>
+          </ul>
+        </div>
+      </div>
+      <div class="ft-bottom">
+        <span style="font-size:.7rem;color:var(--zinc-400,#aaa);">All products available cut-to-length. Contact us for current stock and pricing.</span>
+        <div class="ft-legal"><a href="#">Privacy</a><a href="#">Disclaimer</a><a href="contact.html">Contact</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    function switchMainTab(tabId, btn) {
+      document.querySelectorAll('.main-tab').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById('tab-' + tabId).classList.add('active');
+      document.querySelectorAll('.cat-link').forEach(l => l.classList.remove('active'));
+    }
+
+    function showTab(tabId, sectionId, link) {
+      const tabBtn = document.querySelector(`.main-tab[onclick*="'${tabId}'"]`);
+      if (tabBtn) switchMainTab(tabId, tabBtn);
+      document.querySelectorAll('.cat-link').forEach(l => l.classList.remove('active'));
+      link.classList.add('active');
+      setTimeout(() => {
+        const el = document.getElementById(sectionId);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 50);
+    }
+
+    // Image upload handler — replaces the placeholder with the chosen image
+    function triggerUpload(placeholder) {
+      // The click on the div bubbles to the hidden file input
+    }
+
+    function loadImage(input) {
+      if (!input.files || !input.files[0]) return;
+      const file = input.files[0];
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const container = input.closest('.sub-cat-img');
+        container.innerHTML = '';
+        const img = document.createElement('img');
+        img.src = e.target.result;
+        img.style.cssText = 'width:100%;height:100%;object-fit:cover;display:block;min-height:180px;cursor:pointer;';
+        img.title = 'Click to replace image';
+        // Allow re-upload by clicking image
+        img.onclick = function() {
+          const newInput = document.createElement('input');
+          newInput.type = 'file';
+          newInput.accept = 'image/*';
+          newInput.style.display = 'none';
+          newInput.onchange = function() { loadImage(newInput); };
+          container.appendChild(newInput);
+          newInput.click();
+        };
+        container.appendChild(img);
+      };
+      reader.readAsDataURL(file);
+    }
+  </script>
+</body>
+</html>
