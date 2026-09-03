@@ -30,6 +30,8 @@
   </div>
   <div class="n-right">
     <a href="tel:+18686748897" class="n-phone">📞 (868) 674-8897</a>
+    <a href="tel:+186866385746" class="n-phone">📞 (868) 638-5746</a>
+    <a href="tel:+18683552989" class="n-phone">📞 (868) 355-2989</a>
     <a href="contact.html" class="btn btn-red">Request a Quote</a>
   </div>
 </nav>
@@ -56,7 +58,7 @@
         <h2 class="s-title" style="font-size:2rem;">Reach <span class="ac">Our Team</span></h2>
         <div class="s-rule accent-rule" style="margin-bottom:2rem;"></div>
         <div style="display:flex;flex-direction:column;gap:1.1rem;margin-bottom:1.75rem;">
-          <div class="c-item"><div class="c-ico">📞</div><div><span class="c-lbl">Phone &amp; Fax</span><a href="tel:+18686748897" class="c-val">(868) 674-8897</a></div></div>
+          <div class="c-item"><div class="c-ico">📞</div><div><span class="c-lbl">Phone &amp; Fax</span><span class="c-val"><a href="tel:+18686748897">(868) 674-8897</a><br><a href="tel:+186866385746">(868) 638-5746</a><br><a href="tel:+18683552989">(868) 355-2989</a></span></div></div>
           <div class="c-item"><div class="c-ico">📍</div><div><span class="c-lbl">Address</span><span class="c-val">6 Mendoza Lane, Irving Street<br>Petit Bourg, San Juan, Trinidad</span></div></div>
         </div>
         <div class="hrs-card" style="margin-bottom:1.5rem;">
@@ -72,16 +74,17 @@
         </div>
       </div>
 
-      <div class="form-card">
+      <!-- TODO: replace quotes@lifewearsteel.com with the real business email once available -->
+      <form class="form-card" action="mailto:quotes@lifewearsteel.com" method="POST" enctype="text/plain">
         <div style="font-family:var(--ff-disp);font-size:2rem;letter-spacing:1px;color:var(--zinc-900);margin-bottom:.25rem;">Request a Quote</div>
         <p style="font-size:.84rem;color:var(--zinc-400);margin-bottom:2rem;font-weight:300;">Tell us what you need — we'll get back to you with pricing and availability.</p>
         <div class="f-row">
-          <div class="f-grp"><label class="f-label">First Name</label><input type="text" class="f-inp" placeholder="John"></div>
-          <div class="f-grp"><label class="f-label">Last Name</label><input type="text" class="f-inp" placeholder="Smith"></div>
+          <div class="f-grp"><label class="f-label">First Name</label><input type="text" name="First Name" class="f-inp" placeholder="John" required></div>
+          <div class="f-grp"><label class="f-label">Last Name</label><input type="text" name="Last Name" class="f-inp" placeholder="Smith" required></div>
         </div>
-        <div class="f-grp"><label class="f-label">Phone Number</label><input type="tel" class="f-inp" placeholder="+1 868 ···"></div>
+        <div class="f-grp"><label class="f-label">Phone Number</label><input type="tel" name="Phone Number" class="f-inp" placeholder="+1 868 ···" required></div>
         <div class="f-grp"><label class="f-label">Industry / Application</label>
-          <select class="f-inp">
+          <select class="f-inp" name="Industry / Application">
             <option value="" disabled selected>Select your industry…</option>
             <option>Automotive / Exhaust</option>
             <option>Food &amp; Beverage</option>
@@ -92,17 +95,17 @@
             <option>Other</option>
           </select>
         </div>
-        <div class="f-grp"><label class="f-label">Product &amp; Specification</label><input type="text" class="f-inp" placeholder="e.g. SS Pipe 2-inch, Grade 304, 20ft length"></div>
+        <div class="f-grp"><label class="f-label">Product &amp; Specification</label><input type="text" name="Product & Specification" class="f-inp" placeholder="e.g. SS Pipe 2-inch, Grade 304, 20ft length"></div>
         <div class="f-grp"><label class="f-label">Delivery Required?</label>
-          <select class="f-inp">
+          <select class="f-inp" name="Delivery Required">
             <option value="" disabled selected>Select…</option>
             <option>Yes — deliver to my site</option>
             <option>No — I will collect</option>
           </select>
         </div>
-        <div class="f-grp"><label class="f-label">Additional Notes</label><textarea class="f-inp" placeholder="Quantity, sizes, grades, or any questions…"></textarea></div>
-        <button class="f-sub">Send Quote Request →</button>
-      </div>
+        <div class="f-grp"><label class="f-label">Additional Notes</label><textarea class="f-inp" name="Additional Notes" placeholder="Quantity, sizes, grades, or any questions…"></textarea></div>
+        <button type="submit" class="f-sub">Send Quote Request →</button>
+      </form>
 
     </div>
   </div>
